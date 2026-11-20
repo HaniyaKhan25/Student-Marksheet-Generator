@@ -32,3 +32,21 @@ else{
     grade = "Fail"
 }
 
+document.write(`<div class="container">
+        <div class="row">
+            <div class="col-lg-4"> </div>
+            <div class="col-lg-4 shadow text-center">
+            <img src="images/3dab5314-09f4-475f-8384-66728436d667(1).png" width="140" height="140">
+                 <h2>${stdname}</h2>
+                <h3 class="badge bg-success">Class ${standard}</h3>
+                <br>
+                <p class="badge bg-danger">Obtain Marks: ${obtmarks}</p>
+                <br>
+                <button class="btn btn-outline-success">Percentage: ${percentage}%</button>
+                <br>
+                <p class="badge bg-primary">Grade: ${grade}</p>
+            </div>
+            <div class="col-lg-4"> </div>
+              </div>
+
+    </div>`)
